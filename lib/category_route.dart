@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_text_input/category.dart';
 import 'package:flutter_text_input/unit.dart';
 
-final _backgroundColor = Colors.green[100];
+final _backgroundColor = Colors.pink[200];
 
 
 class CategoryRoute extends StatefulWidget {
@@ -123,7 +123,7 @@ class _CategoryRouteState extends State<CategoryRoute> {
   Widget build(BuildContext context) {
 
     final listView = Container(
-      color: _backgroundColor,
+      color: Colors.pink[100],
       padding: EdgeInsets.symmetric(horizontal: 8.0),
       child: _buildCategoryWidgets(),
     );

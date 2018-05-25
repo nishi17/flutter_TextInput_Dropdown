@@ -172,10 +172,10 @@ class _ConverterRouteState extends State<ConverterRoute> {
       margin: EdgeInsets.only(top: 16.0),
       decoration: BoxDecoration(
         // This sets the color of the [DropdownButton] itself
-        color: Colors.grey[50],
+        color: Colors.grey[300],
         border: Border.all(
-          color: Colors.grey[400],
-          width: 1.0,
+          color: Colors.grey[600],
+          width: 3.0,
         ),
       ),
       padding: EdgeInsets.symmetric(vertical: 8.0),
